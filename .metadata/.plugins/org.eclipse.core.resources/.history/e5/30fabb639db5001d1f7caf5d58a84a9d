@@ -1,0 +1,10 @@
+package org.junit;
+
+public class FbLoginTest {
+
+	@BeforeClass
+	public void test1() {
+		
+
+	}
+}

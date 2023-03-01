@@ -1,0 +1,19 @@
+package org.baseclass;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class Flipkart extends BaseClass {
+
+	public static void main(String[] args) {
+		browserLaunch("https://www.flipkart.com/");
+		List<WebElement> elements = driver.findElements(By.xpath("//div[@class=\"_37M3Pb\"]"));
+		System.out.println(elements.size());
+		for (int i = 0; i < elements.size(); i++) {
+			WebElement webElement = elements.get(i);
+			webElement.click();
+		}
+	}
+}

@@ -1,0 +1,25 @@
+package org.junit;
+
+import java.io.IOException;
+
+import org.baseclass.BaseClass;
+
+public class FbLoginTest extends BaseClass {
+
+	@BeforeClass
+	public void test1() {
+		browserLaunch("https://www.facebook.com/");
+		System.out.println("fb login test test1");
+	}
+
+	@AfterClass
+	public void test2() {
+		System.out.println("afterclass test2");
+	}
+
+	@Before
+	public void test3() throws IOException {
+		screenshot("C:\\Users\\alanl\\eclipse-workspace2\\TestngFb\\src\\test\\resources\\shot");
+		System.out.println("test3 before");
+	}
+}

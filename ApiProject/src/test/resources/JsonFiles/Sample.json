@@ -1,0 +1,14 @@
+{
+	"id": 1,
+	"name": "Alan",
+	"mobile": 8825752415,
+	"employee": {
+		"empId": 117,
+		"workingstatus": true
+	},
+	"course": [
+		"java",
+		"selenium",
+		"cucumber"
+	]
+}

@@ -1,0 +1,12 @@
+package org.junit;
+
+import org.baseclass.BaseClass;
+
+public class FbLoginTest extends BaseClass {
+
+	@BeforeClass
+	public void test1() {
+		browserLaunc("https://www.facebook.com/");
+		System.out.println("fb login test test1");
+	}
+}

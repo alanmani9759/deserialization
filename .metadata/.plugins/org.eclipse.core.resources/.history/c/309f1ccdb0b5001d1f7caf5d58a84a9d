@@ -1,0 +1,20 @@
+package org.baseclass;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Ffff {
+
+	public static void main(String[] args) {
+		int count = 0;
+		List<Integer> li = new ArrayList<Integer>();
+		li.add(1);
+		li.add(2);
+		for (int i = 0; i < li.size(); i++) {
+			if (li.get(1) == 2) {
+				count++;
+			}
+		}
+		System.out.println(count);
+	}
+}
